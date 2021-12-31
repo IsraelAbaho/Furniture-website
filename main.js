@@ -18,6 +18,7 @@ toggleIcon.addEventListener('click', function(){
 nav.forEach(nav =>{
     nav.addEventListener('click', function(){
         navBar.classList.remove('show')
+        toggleIcon.innerHTML = `<i class='bx bx-menu-alt-right icon' ></i>`
     })
 })
 
@@ -55,3 +56,33 @@ let newSwiper = new Swiper(".clientBody", {
       },
    
   });
+
+ const sr = ScrollReveal({ 
+     distance: '30px',
+     duration: 2000,
+     origin: 'top',
+     reset: true
+     });
+
+     sr.reveal(`.mainText, .bannerDiv `,
+     {interval: 200,
+        
+    })
+     sr.reveal(`.dealContent, .products, .client, .footer, .col-1, .col`,
+     {interval: 200,
+        
+    })
+     sr.reveal(`.aboutSection`,
+     {interval: 200,
+        origin: 'right'
+    })
+     sr.reveal(`.aboutImageDiv`,
+     {interval: 200,
+        origin: 'left'
+    })
+     sr.reveal(`.aboutContent`,
+     {interval: 200,
+        origin: 'right'
+    })
+
+    

@@ -362,7 +362,7 @@ html {
   }
 
   .menu {
-    width: 80%;
+    width: 100%;
     margin: 30px auto 60px;
     display: grid;
     align-items: center;
@@ -388,7 +388,7 @@ html {
   }
 
   .productItems {
-    width: 80%;
+    width: 100%;
     margin: auto;
 
     .row1 {
@@ -462,7 +462,7 @@ html {
     p {
       color: var(--blackColor);
       padding: 1rem 0;
-      max-width: 60%;
+      width: 90%;
       text-align: center;
       margin: auto;
     }
@@ -791,8 +791,13 @@ html {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .intro h1 {
-    font-size: 2rem;
+  .intro  {
+    h1{
+      font-size: 2rem;
+    }
+    p{
+      width: 60%;
+    }
   }
 
 }

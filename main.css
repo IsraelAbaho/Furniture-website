@@ -453,7 +453,7 @@ html {
 }
 
 .products .menu {
-  width: 80%;
+  width: 100%;
   margin: 30px auto 60px;
   display: -ms-grid;
   display: grid;
@@ -491,7 +491,7 @@ html {
 }
 
 .products .productItems {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
@@ -581,7 +581,7 @@ html {
 .client .intro p {
   color: var(--blackColor);
   padding: 1rem 0;
-  max-width: 60%;
+  width: 90%;
   text-align: center;
   margin: auto;
 }
@@ -953,6 +953,9 @@ html {
   }
   .intro h1 {
     font-size: 2rem;
+  }
+  .intro p {
+    width: 60%;
   }
 }
 
